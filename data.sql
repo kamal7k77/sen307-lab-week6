@@ -45,40 +45,40 @@ SELECT dept_id, dept_name FROM Department;
 SELECT course_id, course_code FROM Course;
 
 INSERT INTO Lecturer (staff_no, full_name, email, dept_id) VALUES
-('VUA/ST/201', 'Dr Ngozi Adebayo',      'n.adebayo@vua.edu.ng',   3),
-('VUA/ST/202', 'Dr Tunde Olawale',      't.olawale@vua.edu.ng',   5),
-('VUA/ST/203', 'Dr Ifeoma Nwachukwu',   'i.nwachukwu@vua.edu.ng', 1),
-('VUA/ST/204', 'Dr Bala Suleiman',      'b.suleiman@vua.edu.ng',  4),
-('VUA/ST/205', 'Dr Yetunde Alabi',      'y.alabi@vua.edu.ng',     2),
-('VUA/ST/206', 'Dr Emeka Obi',          'e.obi@vua.edu.ng',       3),
-('VUA/ST/207', 'Dr Halima Danjuma',     'h.danjuma@vua.edu.ng',   5),
-('VUA/ST/208', 'Dr Olumide Fashola',    'o.fashola@vua.edu.ng',   1),
-('VUA/ST/209', 'Dr Chinwe Okonkwo',     'c.okonkwo@vua.edu.ng',   4),
-('VUA/ST/210', 'Dr Sadiq Abubakar',     's.abubakar@vua.edu.ng',  2);
+('VUA/ST/101', 'Dr Ngozi Adebayo',      'n.adebayo@vua.edu.ng',   1),
+('VUA/ST/102', 'Dr Tunde Olawale',      't.olawale@vua.edu.ng',   1),
+('VUA/ST/103', 'Dr Ifeoma Nwachukwu',   'i.nwachukwu@vua.edu.ng', 2),
+('VUA/ST/104', 'Dr Bala Suleiman',      'b.suleiman@vua.edu.ng',  2),
+('VUA/ST/105', 'Dr Yetunde Alabi',      'y.alabi@vua.edu.ng',     3),
+('VUA/ST/106', 'Dr Emeka Obi',          'e.obi@vua.edu.ng',       3),
+('VUA/ST/107', 'Dr Halima Danjuma',     'h.danjuma@vua.edu.ng',   4),
+('VUA/ST/108', 'Dr Olumide Fashola',    'o.fashola@vua.edu.ng',   4),
+('VUA/ST/109', 'Dr Chinwe Okonkwo',     'c.okonkwo@vua.edu.ng',   5),
+('VUA/ST/110', 'Dr Sadiq Abubakar',     's.abubakar@vua.edu.ng',  5);
 
 select * from Lecturer
 
 INSERT INTO Student (matric_no, full_name, gender, date_of_birth, dept_id) VALUES
-('20250101', 'Blessing Oyelaran',  'F', '2003-01-17', 2),
-('20250102', 'Kelechi Uzodinma',   'M', '2004-07-23', 4),
-('202411395', 'mahmud kamaldeen',  'M', '2007-07-07', 1),
-('20250104', 'Tobiloba Adesanya',  'M', '2002-10-05', 5),
-('20250105', 'Chidinma Eze',       'F', '2004-03-29', 3),
-('20250106', 'Yusuf Aliyu',        'M', '2001-12-14', 2),
-('20250107', 'Folake Adewale',     'F', '2005-06-08', 4),
-('20250108', 'Ifeanyi Nwosu',      'M', '2003-09-21', 1),
-('20250109', 'Halima Bello',       'F', '2002-04-02', 5),
-('20250110', 'Segun Oduola',       'M', '2004-11-30', 3),
-('20250111', 'Nneka Uche',         'F', '2005-01-25', 2),
-('20250112', 'Abdulrahman Sani',   'M', '2001-08-19', 4),
-('20250113', 'Temitope Oladipo',   'F', '2003-05-13', 1),
-('20250114', 'Chukwuemeka Obi',    'M', '2004-02-06', 5),
-('20250115', 'Zara Musa',          'F', '2002-07-27', 3),
-('20250116', 'Oluwaseun Ajayi',    'M', '2005-10-09', 2),
-('20250117', 'Adaeze Okonkwo',     'F', '2003-12-18', 4),
-('20250118', 'Bashir Lawal',       'M', '2001-06-04', 1),
-('20250119', 'Grace Ogbonna',      'F', '2004-09-22', 5),
-('20250120', 'Ibrahim Yakubu',     'M', '2002-03-15', 3);
+('20250101', 'Blessing Oyelaran',  'F', '2003-01-17', 1),
+('20250102', 'Kelechi Uzodinma',   'M', '2004-07-23', 2),
+('202411395', 'mahmud kamaldeen',  'M', '2007-07-07', 3),
+('20250104', 'Tobiloba Adesanya',  'M', '2002-10-05', 3),
+('20250105', 'Chidinma Eze',       'F', '2004-03-29', 4),
+('20250106', 'Yusuf Aliyu',        'M', '2001-12-14', 5),
+('20250107', 'Folake Adewale',     'F', '2005-06-08', 1),
+('20250108', 'Ifeanyi Nwosu',      'M', '2003-09-21', 2),
+('20250109', 'Halima Bello',       'F', '2002-04-02', 3),
+('20250110', 'Segun Oduola',       'M', '2004-11-30', 4),
+('20250111', 'Nneka Uche',         'F', '2005-01-25', 5),
+('20250112', 'Abdulrahman Sani',   'M', '2001-08-19', 1),
+('20250113', 'Temitope Oladipo',   'F', '2003-05-13', 2),
+('20250114', 'Chukwuemeka Obi',    'M', '2004-02-06', 3),
+('20250115', 'Zara Musa',          'F', '2002-07-27', 4),
+('20250116', 'Oluwaseun Ajayi',    'M', '2005-10-09', 5),
+('20250117', 'Adaeze Okonkwo',     'F', '2003-12-18', 1),
+('20250118', 'Bashir Lawal',       'M', '2001-06-04', 2),
+('20250119', 'Grace Ogbonna',      'F', '2004-09-22', 3),
+('20250120', 'Ibrahim Yakubu',     'M', '2002-03-15', 4);
 
 SELECT * FROM Student;
 
